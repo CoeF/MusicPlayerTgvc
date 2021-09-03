@@ -6,18 +6,18 @@ Supports Live streaming from youtube.
 
 ## Deploy to Heroku
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/qowwim-lab/MusicPlayer)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/qowwim-lab/MusicPlayerTgvc)
 
 ## Deploy to Railway
 
-[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/qowwim-lab/MusicPlayer&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_STRING,CHAT,LOG_GROUP,ADMINS,ADMIN_ONLY,MAXIMUM_DURATION,STREAM_URL,REPLY_MESSAGE)
+[![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/qowwim-lab/MusicPlayerTgvc&envs=API_ID,API_HASH,BOT_TOKEN,SESSION_STRING,CHAT,LOG_GROUP,ADMINS,ADMIN_ONLY,MAXIMUM_DURATION,STREAM_URL,REPLY_MESSAGE)
 
 NOTE: Make sure you have started a VoiceChat in your Group before deploying.
 ### Deploy to VPS
 
 ```sh
-git clone https://github.com/qowwim-lab/MusicPlayer
-cd MusicPlayer
+git clone https://github.com/qowwim-lab/MusicPlayerTgvc
+cd MusicPlayerTgvc
 pip3 install -r requirements.txt
 # <Create Variables appropriately>
 python3 main.py
